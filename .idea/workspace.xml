@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6615c953-12fc-424c-87c0-7e16c1bdcf29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +19,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,14 +54,146 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pageObjects" />
+      <recent name="PageObjects" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginSpec (3)">
+    <configuration name="Login (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginSpec (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginSpec" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginSpec (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginSpec" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginSpec (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginSpec" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginSpec" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginSpec" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginSpec" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginSpec" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginSpec" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginSpec" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginSpec" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginSpec" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginSpec.success" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginSpec" />
+      <option name="METHOD_NAME" value="success" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginSpec (3)" />
+        <item itemvalue="TestNG.LoginSpec.success" />
+        <item itemvalue="TestNG.LoginSpec (2)" />
+        <item itemvalue="TestNG.LoginSpec (1)" />
+        <item itemvalue="TestNG.LoginSpec" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,5 +210,56 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2224" y="1745" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582263385748">
+      <screen x="1800" y="1495" width="1920" height="1177" />
+    </state>
+    <state x="2224" y="1745" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263385748" />
+    <state x="434" y="1732" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582321391075">
+      <screen x="47" y="1463" width="1680" height="966" />
+    </state>
+    <state x="434" y="1732" key="#com.intellij.ide.util.PackageChooserDialog/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582321391075" />
+    <state x="462" y="1811" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582321437203">
+      <screen x="47" y="1463" width="1680" height="966" />
+    </state>
+    <state x="462" y="1811" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582321437203" />
+    <state width="1251" height="278" key="GridCell.Tab.0.bottom" timestamp="1582323301236">
+      <screen x="47" y="1463" width="1680" height="1027" />
+    </state>
+    <state width="1251" height="278" key="GridCell.Tab.0.bottom/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582323301236" />
+    <state width="1251" height="278" key="GridCell.Tab.0.bottom/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582320924853" />
+    <state width="1251" height="328" key="GridCell.Tab.0.bottom/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@0.23.2560.1337" timestamp="1582296734514" />
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263736417" />
+    <state width="1251" height="278" key="GridCell.Tab.0.center" timestamp="1582323301234">
+      <screen x="47" y="1463" width="1680" height="1027" />
+    </state>
+    <state width="1251" height="278" key="GridCell.Tab.0.center/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582323301234" />
+    <state width="1251" height="278" key="GridCell.Tab.0.center/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582320924850" />
+    <state width="1251" height="328" key="GridCell.Tab.0.center/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@0.23.2560.1337" timestamp="1582296734513" />
+    <state width="1878" height="328" key="GridCell.Tab.0.center/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263736415" />
+    <state width="1251" height="278" key="GridCell.Tab.0.left" timestamp="1582323301233">
+      <screen x="47" y="1463" width="1680" height="1027" />
+    </state>
+    <state width="1251" height="278" key="GridCell.Tab.0.left/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582323301233" />
+    <state width="1251" height="278" key="GridCell.Tab.0.left/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582320924850" />
+    <state width="1251" height="328" key="GridCell.Tab.0.left/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@0.23.2560.1337" timestamp="1582296734512" />
+    <state width="1878" height="328" key="GridCell.Tab.0.left/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263736415" />
+    <state width="1251" height="278" key="GridCell.Tab.0.right" timestamp="1582323301235">
+      <screen x="47" y="1463" width="1680" height="1027" />
+    </state>
+    <state width="1251" height="278" key="GridCell.Tab.0.right/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582323301235" />
+    <state width="1251" height="278" key="GridCell.Tab.0.right/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582320924852" />
+    <state width="1251" height="328" key="GridCell.Tab.0.right/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@0.23.2560.1337" timestamp="1582296734514" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263736416" />
+    <state x="450" y="1649" key="SettingsEditor" timestamp="1582319370174">
+      <screen x="47" y="1463" width="1680" height="966" />
+    </state>
+    <state x="450" y="1649" key="SettingsEditor/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582319370174" />
+    <state x="2261" y="1722" key="SettingsEditor/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263508248" />
+    <state x="360" y="1674" width="670" height="676" key="search.everywhere.popup" timestamp="1582323379411">
+      <screen x="47" y="1463" width="1680" height="1027" />
+    </state>
+    <state x="360" y="1674" width="670" height="676" key="search.everywhere.popup/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582323379411" />
   </component>
 </project>

@@ -17,3 +17,19 @@ dependencies {
     testCompile group: 'org.testng', name: 'testng', version: '7.0.0'
     implementation 'com.github.javafaker:javafaker:1.0.2'
 }
+
+test {
+    useJUnit()
+
+    maxHeapSize = '1G'
+}
+
+reporting.baseDir = "my-reports"
+testResultsDirName = "$buildDir/my-test-results"
+
+task showDirs {
+    doLast {
+        logger.quiet(rootDir.toPath().relativize(project.reportsDir.toPath()).toString())
+        logger.quiet(rootDir.toPath().relativize(project.testResultsDir.toPath()).toString())
+    }
+}
