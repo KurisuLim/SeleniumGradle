@@ -2,7 +2,6 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import sun.jvm.hotspot.asm.Register;
 
 public class HomePage extends BasePage{
 
@@ -15,8 +14,7 @@ public class HomePage extends BasePage{
     String baseUrl = "https://testkwidos.tk/";
 
     // page elements
-    By navbarToggle = By.className("navbar-toggle");
-    By signInBtn = By.className("glyphicon.glyphicon-log-in");
+    By signInBtn = By.cssSelector("ul.user.nav");
     By registerBtn = By.xpath("//label[contains(text(),'SERVICE PROVIDER']");
 
     public HomePage testkwidos(){
@@ -25,13 +23,13 @@ public class HomePage extends BasePage{
     }
 
     public LoginPage toLoginPage(){
-        waitFoClick(navbarToggle);
-        waitFoClick(signInBtn);
+        waitForClick(signInBtn);
         return new LoginPage(driver);
     }
 
     public RegisterPage toRegisterPage(){
-        waitFoClick(registerBtn);
+        waitForClick(registerBtn);
         return new RegisterPage(driver);
     }
+
 }
