@@ -29,7 +29,7 @@ public class LoginPage extends BasePage {
     public LoginPage loginWith(String email, String password){
         setText(emailInput, email);
         setText(passwordInput, password);
-        waitFoClick(signinBtn);
+        waitForClick(signinBtn);
         return this;
     }
 

@@ -13,7 +13,7 @@ public class BasePage {
     //Constructor
     public BasePage (WebDriver driver){
         this.driver = driver;
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 15);
     }
 
     //Method to stop the using sleeps
@@ -21,7 +21,7 @@ public class BasePage {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(element));
     }
 
-    public void waitFoClick(By element){
+    public void waitForClick(By element){
         waitVisibility(element);
         driver.findElement(element).click();
     }
