@@ -2,7 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import sun.jvm.hotspot.asm.Register;
+
 
 public class HomePage extends BasePage{
 
@@ -16,7 +16,7 @@ public class HomePage extends BasePage{
 
     // page elements
     By signInBtn = By.cssSelector("ul.user.nav");
-    By registerBtn = By.xpath("//label[contains(text(),'SERVICE PROVIDER']");
+    By signUpBtn = By.cssSelector("div.guest-home div div label");
 
     public HomePage testkwidos(){
         driver.get(baseUrl);
@@ -28,8 +28,8 @@ public class HomePage extends BasePage{
         return new LoginPage(driver);
     }
 
-    public RegisterPage toRegisterPage(){
-        waitForClick(registerBtn);
-        return new RegisterPage(driver);
+    public SignupPage toSignupPage(){
+        waitForClick(signUpBtn);
+        return new SignupPage(driver);
     }
 }

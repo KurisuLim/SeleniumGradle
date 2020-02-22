@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+
 public class BasePage {
     public WebDriver driver;
     public WebDriverWait wait;
@@ -39,6 +40,11 @@ public class BasePage {
     public void assertEquals(By element, String expectText){
         waitVisibility(element);
         Assert.assertEquals(getText(element), expectText);
+    }
+
+    public void assertTrue(By element){
+        waitVisibility(element);
+        Assert.assertTrue(driver.findElement(element).isDisplayed());
     }
 
 }
