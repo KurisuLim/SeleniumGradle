@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 
 public class HomePage extends BasePage{
@@ -18,7 +19,7 @@ public class HomePage extends BasePage{
     By signInBtn = By.cssSelector("ul.user.nav");
     By signUpBtn = By.cssSelector("div.guest-home div div label");
 
-    public HomePage testkwidos(){
+    public HomePage openHomePage(){
         driver.get(baseUrl);
         return  this;
     }
