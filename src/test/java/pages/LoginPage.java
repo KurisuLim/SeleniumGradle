@@ -10,22 +10,22 @@ public class LoginPage extends BasePage {
     }
 
     // element
-    By cardTitle = By.className("card-title");
-    By emailText = By.xpath("//label[contains(text(), 'Email Address']");
-    By emailInput = By.id("email");
-    By passwordText = By.xpath("//label[contains(text(), 'Password']");
-    By passwordInput = By.id("password");
-    By signinBtn = By.cssSelector("button");
-    By errorEmailLabel = By.cssSelector("div.card-content div:nth-child(2) div");
-    By errorPassswordLabel = By.cssSelector("div.card-content div:nth-child(3) div.help-block");
-    By forgotPassText = By.className("forgot");
-    By alertError = By.className("alert-danger");
+    public By cardTitle = By.className("card-title");
+    public By emailText = By.xpath("//label[contains(text(), 'Email Address']");
+    public By emailInput = By.id("email");
+    public By passwordText = By.xpath("//label[contains(text(), 'Password']");
+    public By passwordInput = By.id("password");
+    public By signinBtn = By.cssSelector("button");
+    public By errorEmailLabel = By.cssSelector("div.card-content div:nth-child(2) div");
+    public By errorPassswordLabel = By.cssSelector("div.card-content div:nth-child(3) div.help-block");
+    public By forgotPassText = By.className("forgot");
+    public By alertError = By.className("alert-danger");
 
     //element for success login
-    By navTitle = By.className("navbar-title");
-    By pageHeader = By.className("title");
-    By profileBtn = By.xpath("//label[contains(text(), 'GO TO PROFILE)]");
-    By paymentBtn = By.xpath("//label[contains(text(), 'GO TO PAYMENT INFO)]");
+    public By navTitle = By.className("navbar-title");
+    public By pageHeader = By.className("title");
+    public By profileBtn = By.xpath("//label[contains(text(), 'GO TO PROFILE)]");
+    public By paymentBtn = By.xpath("//label[contains(text(), 'GO TO PAYMENT INFO)]");
 
     public LoginPage loginWith(String email, String password){
         setText(emailInput, email);
@@ -33,31 +33,4 @@ public class LoginPage extends BasePage {
         waitForClick(signinBtn);
         return this;
     }
-
-    public LoginPage verifyLoginEmail(String text){
-        assertEquals(errorEmailLabel, text);
-        return this;
-    }
-
-    public LoginPage verifyLoginPassword(String text){
-        assertEquals(errorPassswordLabel, text);
-        return this;
-    }
-
-    public LoginPage errorLabelMessage(String text1, String text2){
-        assertEquals(errorEmailLabel, text1);
-        assertEquals(errorPassswordLabel, text2);
-        return this;
-    }
-
-    public LoginPage alertMessage(String text){
-        assertEquals(alertError, text);
-        return this;
-    }
-
-    public LoginPage successLogin(String text){
-        assertEquals(pageHeader, text);
-        return this;
-    }
-
 }

@@ -1,7 +1,11 @@
 package tests;
 
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.HomePage;
+import pages.LoginPage;
 
 public class LoginTest extends BaseTest {
     /*
@@ -12,34 +16,35 @@ public class LoginTest extends BaseTest {
     *
     * Note: Test sometimes will fail due to Capcha  Images
     * */
+    HomePage homePage = new HomePage(driver);
+    LoginPage page = new LoginPage(driver);
 
-    @Test (priority = 0)
-    public void emptyCredentials(){
-
-        HomePage homePage = new HomePage(driver);
-        homePage.testkwidos()
-                .toLoginPage()
-                .loginWith("","")
-                .errorLabelMessage("Email is required","Password is required");
+    @BeforeMethod
+    public void loginPage(){
+        homePage.openHomePage()
+                .toLoginPage();
     }
 
     @Test (priority = 1)
-    public void wrongCredentials() {
-        HomePage homePage = new HomePage(driver);
-        homePage.testkwidos()
-                .toLoginPage()
-                .loginWith("wdwewwe@io.com","TestProRocks2020!")
-                .alertMessage("Username or password is incorrect");
+    public void emptyCredentials(){
+        page.loginWith("","");
+        homePage.waitVisibility(page.errorEmailLabel);
+        Assert.assertEquals(page.errorEmailLabel, "Email is required");
+        Assert.assertEquals(page.errorPassswordLabel, "Password is required");
     }
 
     @Test (priority = 2)
-    public void successLogin(){
-        HomePage homePage = new HomePage(driver);
-        homePage.testkwidos()
-                .toLoginPage()
-                .loginWith("toffer.lim87+testpro@gmail.com","TestProRocks2020!")
-                .successLogin("Let's get it started!");
+    public void wrongCredentials() {
+        page.loginWith("wdwewwe@io.com","TestProRocks2020!");
+        homePage.waitVisibility(page.alertError);
+        Assert.assertEquals(page.alertError, "Username or password is incorrect");
+    }
 
+    @Test (priority = 3)
+    public void successLogin(){
+        page.loginWith("toffer.lim87+testpro@gmail.com","TestProRocks2020!");
+        homePage.waitVisibility(page.pageHeader);
+        Assert.assertEquals(page.pageHeader, "Let's get it started!");
     }
 
 }
