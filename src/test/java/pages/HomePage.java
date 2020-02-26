@@ -2,7 +2,6 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import sun.jvm.hotspot.asm.Register;
 
 public class HomePage extends BasePage{
 
@@ -15,10 +14,10 @@ public class HomePage extends BasePage{
     String baseUrl = "https://testkwidos.tk/";
 
     // page elements
-    By signInBtn = By.cssSelector("ul.user.nav");
-    By registerBtn = By.xpath("//label[contains(text(),'SERVICE PROVIDER']");
+    private By signInBtn = By.cssSelector("ul.user.nav");
+    private By registerBtn = By.xpath("//label[contains(text(),'SERVICE PROVIDER']");
 
-    public HomePage testkwidos(){
+    public HomePage openHomePage(){
         driver.get(baseUrl);
         return  this;
     }
@@ -32,4 +31,5 @@ public class HomePage extends BasePage{
         waitForClick(registerBtn);
         return new RegisterPage(driver);
     }
+
 }
