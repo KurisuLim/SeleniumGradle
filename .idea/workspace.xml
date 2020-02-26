@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6615c953-12fc-424c-87c0-7e16c1bdcf29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SignupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SignupPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SignupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SignupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG.SignupTest">
     <configuration name="LoginSpec" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumGradle.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,7 +84,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginSpec" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginSpec" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginSpec" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumGradle.test" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignupTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumGradle.test" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +121,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.SignupTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -118,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignupTest.emptyCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumGradle.test" />
       <extension name="coverage">
         <pattern>
@@ -127,15 +138,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="tests.SignupTest" />
+      <option name="METHOD_NAME" value="emptyCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignupTest.successSignup" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumGradle.test" />
       <extension name="coverage">
         <pattern>
@@ -144,15 +156,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="tests.SignupTest" />
+      <option name="METHOD_NAME" value="successSignup" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignupTest.wrongCredentials (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumGradle.test" />
       <extension name="coverage">
         <pattern>
@@ -161,8 +174,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="tests.SignupTest" />
+      <option name="METHOD_NAME" value="wrongCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignupTest.wrongCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumGradle.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SignupTest" />
+      <option name="METHOD_NAME" value="wrongCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -171,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest (4)" />
-        <item itemvalue="TestNG.LoginTest (3)" />
-        <item itemvalue="TestNG.LoginTest (2)" />
-        <item itemvalue="TestNG.LoginTest (1)" />
+        <item itemvalue="TestNG.SignupTest" />
+        <item itemvalue="TestNG.SignupTest.emptyCredentials" />
+        <item itemvalue="TestNG.SignupTest.successSignup" />
+        <item itemvalue="TestNG.SignupTest.wrongCredentials" />
+        <item itemvalue="TestNG.SignupTest.wrongCredentials (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -200,11 +232,10 @@
       <screen x="47" y="1463" width="1680" height="957" />
     </state>
     <state x="2224" y="1745" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263385748" />
-    <state x="418" y="1666" key="#com.intellij.execution.impl.EditConfigurationsDialog/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582602378848" />
-    <state x="100" y="123" width="1434" height="1136" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582338135363">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state x="147" y="1563" width="1480" height="827" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582349074776">
+      <screen x="47" y="1463" width="1680" height="1027" />
     </state>
-    <state x="100" y="123" width="1434" height="1136" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.2560.1337/47.1463.1680.1027@0.23.2560.1337" timestamp="1582338135363" />
+    <state x="147" y="1563" width="1480" height="827" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582349074776" />
     <state x="434" y="1732" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582321391075">
       <screen x="47" y="1463" width="1680" height="966" />
     </state>
@@ -217,68 +248,60 @@
       <screen x="47" y="1463" width="1680" height="966" />
     </state>
     <state x="462" y="1811" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582321437203" />
-    <state x="632" y="1786" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582601748275">
-      <screen x="47" y="1463" width="1680" height="957" />
+    <state width="1638" height="201" key="GridCell.Tab.0.bottom" timestamp="1582349570347">
+      <screen x="47" y="1463" width="1680" height="1027" />
     </state>
-    <state x="632" y="1786" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582601748275" />
-    <state width="1638" height="183" key="GridCell.Tab.0.bottom" timestamp="1582602164792">
-      <screen x="47" y="1463" width="1680" height="957" />
-    </state>
-    <state width="1856" height="278" key="GridCell.Tab.0.bottom/0.23.2560.1337/47.1463.1680.1027@0.23.2560.1337" timestamp="1582340516600" />
-    <state width="1251" height="278" key="GridCell.Tab.0.bottom/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582331442352" />
+    <state width="1638" height="201" key="GridCell.Tab.0.bottom/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582349570347" />
     <state width="1251" height="278" key="GridCell.Tab.0.bottom/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582320924853" />
     <state width="1251" height="328" key="GridCell.Tab.0.bottom/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@0.23.2560.1337" timestamp="1582296734514" />
     <state width="1878" height="328" key="GridCell.Tab.0.bottom/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263736417" />
-    <state width="1638" height="183" key="GridCell.Tab.0.bottom/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582602164792" />
-    <state width="1638" height="183" key="GridCell.Tab.0.center" timestamp="1582602164791">
-      <screen x="47" y="1463" width="1680" height="957" />
+    <state width="1638" height="201" key="GridCell.Tab.0.center" timestamp="1582349570345">
+      <screen x="47" y="1463" width="1680" height="1027" />
     </state>
-    <state width="1856" height="278" key="GridCell.Tab.0.center/0.23.2560.1337/47.1463.1680.1027@0.23.2560.1337" timestamp="1582340516599" />
-    <state width="1251" height="278" key="GridCell.Tab.0.center/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582331442351" />
+    <state width="1638" height="201" key="GridCell.Tab.0.center/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582349570345" />
     <state width="1251" height="278" key="GridCell.Tab.0.center/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582320924850" />
     <state width="1251" height="328" key="GridCell.Tab.0.center/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@0.23.2560.1337" timestamp="1582296734513" />
     <state width="1878" height="328" key="GridCell.Tab.0.center/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263736415" />
-    <state width="1638" height="183" key="GridCell.Tab.0.center/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582602164791" />
-    <state width="1638" height="183" key="GridCell.Tab.0.left" timestamp="1582602164790">
-      <screen x="47" y="1463" width="1680" height="957" />
+    <state width="1638" height="201" key="GridCell.Tab.0.left" timestamp="1582349570345">
+      <screen x="47" y="1463" width="1680" height="1027" />
     </state>
-    <state width="1856" height="278" key="GridCell.Tab.0.left/0.23.2560.1337/47.1463.1680.1027@0.23.2560.1337" timestamp="1582340516598" />
-    <state width="1251" height="278" key="GridCell.Tab.0.left/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582331442350" />
+    <state width="1638" height="201" key="GridCell.Tab.0.left/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582349570345" />
     <state width="1251" height="278" key="GridCell.Tab.0.left/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582320924850" />
     <state width="1251" height="328" key="GridCell.Tab.0.left/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@0.23.2560.1337" timestamp="1582296734512" />
     <state width="1878" height="328" key="GridCell.Tab.0.left/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263736415" />
-    <state width="1638" height="183" key="GridCell.Tab.0.left/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582602164790" />
-    <state width="1638" height="183" key="GridCell.Tab.0.right" timestamp="1582602164791">
-      <screen x="47" y="1463" width="1680" height="957" />
+    <state width="1638" height="201" key="GridCell.Tab.0.right" timestamp="1582349570346">
+      <screen x="47" y="1463" width="1680" height="1027" />
     </state>
-    <state width="1856" height="278" key="GridCell.Tab.0.right/0.23.2560.1337/47.1463.1680.1027@0.23.2560.1337" timestamp="1582340516599" />
-    <state width="1251" height="278" key="GridCell.Tab.0.right/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582331442351" />
+    <state width="1638" height="201" key="GridCell.Tab.0.right/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582349570346" />
     <state width="1251" height="278" key="GridCell.Tab.0.right/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582320924852" />
     <state width="1251" height="328" key="GridCell.Tab.0.right/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@0.23.2560.1337" timestamp="1582296734514" />
     <state width="1878" height="328" key="GridCell.Tab.0.right/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263736416" />
-    <state width="1638" height="183" key="GridCell.Tab.0.right/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582602164791" />
-    <state width="1856" height="469" key="GridCell.Tab.1.bottom" timestamp="1582340455107">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1582347702912">
+      <screen x="47" y="1463" width="1680" height="1027" />
     </state>
-    <state width="1856" height="469" key="GridCell.Tab.1.bottom/0.23.2560.1337/47.1463.1680.1027@0.23.2560.1337" timestamp="1582340455107" />
-    <state width="1856" height="469" key="GridCell.Tab.1.center" timestamp="1582340455105">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582347702912" />
+    <state width="1638" height="345" key="GridCell.Tab.1.center" timestamp="1582347702910">
+      <screen x="47" y="1463" width="1680" height="1027" />
     </state>
-    <state width="1856" height="469" key="GridCell.Tab.1.center/0.23.2560.1337/47.1463.1680.1027@0.23.2560.1337" timestamp="1582340455105" />
-    <state width="1856" height="469" key="GridCell.Tab.1.left" timestamp="1582340455105">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1638" height="345" key="GridCell.Tab.1.center/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582347702910" />
+    <state width="1638" height="345" key="GridCell.Tab.1.left" timestamp="1582347702910">
+      <screen x="47" y="1463" width="1680" height="1027" />
     </state>
-    <state width="1856" height="469" key="GridCell.Tab.1.left/0.23.2560.1337/47.1463.1680.1027@0.23.2560.1337" timestamp="1582340455105" />
-    <state width="1856" height="469" key="GridCell.Tab.1.right" timestamp="1582340455106">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1638" height="345" key="GridCell.Tab.1.left/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582347702910" />
+    <state width="1638" height="345" key="GridCell.Tab.1.right" timestamp="1582347702911">
+      <screen x="47" y="1463" width="1680" height="1027" />
     </state>
-    <state width="1856" height="469" key="GridCell.Tab.1.right/0.23.2560.1337/47.1463.1680.1027@0.23.2560.1337" timestamp="1582340455106" />
-    <state x="450" y="1583" key="SettingsEditor" timestamp="1582602144399">
-      <screen x="47" y="1463" width="1680" height="957" />
+    <state width="1638" height="345" key="GridCell.Tab.1.right/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582347702911" />
+    <state x="450" y="1649" key="SettingsEditor" timestamp="1582319370174">
+      <screen x="47" y="1463" width="1680" height="966" />
     </state>
     <state x="450" y="1649" key="SettingsEditor/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582319370174" />
     <state x="2261" y="1722" key="SettingsEditor/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263508248" />
-    <state x="450" y="1583" key="SettingsEditor/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582602144399" />
+    <state x="593" y="1599" key="refactoring.ChangeSignatureDialog" timestamp="1582347189762">
+      <screen x="47" y="1463" width="1680" height="1027" />
+    </state>
+    <state x="593" y="1599" key="refactoring.ChangeSignatureDialog/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582347189762" />
+
     <state x="360" y="1674" width="670" height="676" key="search.everywhere.popup" timestamp="1582323379411">
       <screen x="47" y="1463" width="1680" height="1027" />
     </state>

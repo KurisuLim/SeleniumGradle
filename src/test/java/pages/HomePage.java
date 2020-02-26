@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class HomePage extends BasePage{
 
@@ -14,8 +15,8 @@ public class HomePage extends BasePage{
     String baseUrl = "https://testkwidos.tk/";
 
     // page elements
-    private By signInBtn = By.cssSelector("ul.user.nav");
-    private By registerBtn = By.xpath("//label[contains(text(),'SERVICE PROVIDER']");
+    By signInBtn = By.cssSelector("ul.user.nav");
+    By signUpBtn = By.cssSelector("div.guest-home div div label");
 
     public HomePage openHomePage(){
         driver.get(baseUrl);
@@ -27,9 +28,9 @@ public class HomePage extends BasePage{
         return new LoginPage(driver);
     }
 
-    public RegisterPage toRegisterPage(){
-        waitForClick(registerBtn);
-        return new RegisterPage(driver);
+    public SignupPage toSignupPage(){
+        waitForClick(signUpBtn);
+        return new SignupPage(driver);
     }
 
 }
