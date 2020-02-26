@@ -55,6 +55,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -96,8 +97,14 @@
     </configuration>
     <configuration name="LoginSpec" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumGradle.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginSpec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -221,8 +228,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2224" y="1745" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582263385748">
-      <screen x="1800" y="1495" width="1920" height="1177" />
+    <state x="418" y="1666" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582602378848">
+      <screen x="47" y="1463" width="1680" height="957" />
     </state>
     <state x="2224" y="1745" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.55.2560.1417/1800.1495.1920.1177/0.23.2560.1337@1800.1495.1920.1177" timestamp="1582263385748" />
     <state x="147" y="1563" width="1480" height="827" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582349074776">
@@ -233,6 +240,10 @@
       <screen x="47" y="1463" width="1680" height="966" />
     </state>
     <state x="434" y="1732" key="#com.intellij.ide.util.PackageChooserDialog/0.23.2560.1417/47.1463.1680.966@47.1463.1680.966" timestamp="1582321391075" />
+    <state x="760" y="1719" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1582602136555">
+      <screen x="47" y="1463" width="1680" height="957" />
+    </state>
+    <state x="760" y="1719" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582602136555" />
     <state x="462" y="1811" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582321437203">
       <screen x="47" y="1463" width="1680" height="966" />
     </state>
@@ -290,6 +301,7 @@
       <screen x="47" y="1463" width="1680" height="1027" />
     </state>
     <state x="593" y="1599" key="refactoring.ChangeSignatureDialog/0.23.2560.1337/47.1463.1680.1027@47.1463.1680.1027" timestamp="1582347189762" />
+
     <state x="360" y="1674" width="670" height="676" key="search.everywhere.popup" timestamp="1582323379411">
       <screen x="47" y="1463" width="1680" height="1027" />
     </state>
